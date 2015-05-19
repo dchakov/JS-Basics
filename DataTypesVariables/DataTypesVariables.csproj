@@ -65,8 +65,8 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="dataTypesVariables.js" />
-    <Content Include="DataTypesVariables.html" />
+    <Content Include="01dataTypesVariables.js" />
+    <Content Include="01DataTypesVariables.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
