@@ -65,7 +65,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="01ExchangeIfGreater.html" />
     <Content Include="01exchangeIfGreater.js" />
     <Content Include="Web.config" />
   </ItemGroup>
