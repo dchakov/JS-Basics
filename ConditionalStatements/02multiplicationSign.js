@@ -3,9 +3,9 @@
 //Use a sequence of if operators.
 
 function funcSign() {
-    var numA = document.getElementById("numA").value*1;
-    var numB = document.getElementById("numB").value*1;
-    var numC = document.getElementById("numC").value*1;
+    var numA = document.getElementById("numA02").value*1;
+    var numB = document.getElementById("numB02").value*1;
+    var numC = document.getElementById("numC02").value*1;
     var result;
     if (numA == 0 || numB == 0 || numC == 0) {
         result = 0;

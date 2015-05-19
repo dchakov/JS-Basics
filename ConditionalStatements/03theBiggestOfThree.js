@@ -3,9 +3,9 @@
 //Use nested if statements.
 
 function funcBiggest() {
-    var numA = document.getElementById("numA").value*1;
-    var numB = document.getElementById("numB").value*1;
-    var numC = document.getElementById("numC").value*1;
+    var numA = document.getElementById("numA03").value*1;
+    var numB = document.getElementById("numB03").value*1;
+    var numC = document.getElementById("numC03").value*1;
     var result;
 
     if (numA > numB) {

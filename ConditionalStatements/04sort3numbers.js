@@ -3,9 +3,9 @@
 //Use nested if statements.
 
 function funcSort() {
-    var a = document.getElementById("numA").value * 1;
-    var b = document.getElementById("numB").value * 1;
-    var c = document.getElementById("numC").value * 1;
+    var a = document.getElementById("numA04").value * 1;
+    var b = document.getElementById("numB04").value * 1;
+    var c = document.getElementById("numC04").value * 1;
     var result;
 
 
