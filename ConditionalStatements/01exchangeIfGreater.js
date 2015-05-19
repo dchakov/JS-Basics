@@ -3,8 +3,8 @@
 //As a result print the values  a  and  b , separated by a space.
 
 function funcExchange() {
-    var numA = document.getElementById("numA").value;
-    var numB = document.getElementById("numB").value;
+    var numA = document.getElementById("numA01").value*1;
+    var numB = document.getElementById("numB01").value*1;
     var numC;
     if (numA > numB) {
         numC = numA;
