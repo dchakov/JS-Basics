@@ -65,7 +65,14 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="01ConditionalStatements.html" />
     <Content Include="01exchangeIfGreater.js" />
+    <Content Include="02multiplicationSign.js" />
+    <Content Include="03theBiggestOfThree.js" />
+    <Content Include="04sort3numbers.js" />
+    <Content Include="05digitAsWord.js" />
+    <Content Include="06quadraticEquation.js" />
+    <Content Include="07theBiggestofFive.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
