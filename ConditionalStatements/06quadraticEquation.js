@@ -3,9 +3,9 @@
 //Calculates and prints its real roots.
 
 function funcQuadratic() {
-    var a = document.getElementById("numA").value * 1;
-    var b = document.getElementById("numB").value * 1;
-    var c = document.getElementById("numC").value * 1;
+    var a = document.getElementById("numA06").value * 1;
+    var b = document.getElementById("numB06").value * 1;
+    var c = document.getElementById("numC06").value * 1;
     var rootX1, rootX2;
 
     // Δ = b2 - 4ac
