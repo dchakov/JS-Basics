@@ -74,7 +74,6 @@
     <Content Include="06pointInCircle.js" />
     <Content Include="07izPrime.js" />
     <Content Include="08trapezoidArea.js" />
-    <Content Include="09PointInCircleOusideRec.html" />
     <Content Include="09pointInCircleOutRec.js" />
     <Content Include="Web.config" />
   </ItemGroup>
