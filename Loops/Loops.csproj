@@ -67,6 +67,9 @@
   <ItemGroup>
     <Content Include="01Loops.html" />
     <Content Include="01numbers.js" />
+    <Content Include="02numbersNoDivisible.js" />
+    <Content Include="03minMaxofSequence.js" />
+    <Content Include="04lexicographicallySmallest.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
