@@ -3,26 +3,12 @@
 
 function funcIsPrime() {
     var number = prompt('Please enter a number');
-    var result;
-    if (number == 2) {
-        result = true;
-    }
-    else if (number <= 0) {
-        result = false;
-    }
-    else {
-        var k = null;
-        for (var i = 1; i <= Math.sqrt(number) ; i++) {
-            if (number % i == 0) {
-                k += 1;
-            }
-        }
-        if (k == 2) {
-            result = true;
-        }
-        else {
-            result = false;
+    var isPrime = true;
+
+    for (var i = 2; i <= Math.sqrt(number) ; i++) {
+        if (number % i == 0) {
+            isPrime = false;
         }
     }
-    console.log(number + ' ' + 'Prime?' + ' ' + result);
+    console.log(number + ' ' + 'Prime?' + ' ' + isPrime);
 }

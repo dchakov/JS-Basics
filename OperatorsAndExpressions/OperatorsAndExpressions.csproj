@@ -65,21 +65,14 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="01OddOrEven.html" />
+    <Content Include="01OperatorsAndExpressions.html" />
     <Content Include="01oddOrEven.js" />
-    <Content Include="02Divisibleby7and5.html" />
     <Content Include="02divisibleby7and5.js" />
-    <Content Include="03RectangleArea.html" />
     <Content Include="03rectangleArea.js" />
-    <Content Include="04ThirdDigit.html" />
     <Content Include="04thirdDigit.js" />
-    <Content Include="05ThirdBit.html" />
     <Content Include="05thirdBit.js" />
-    <Content Include="06PointInCircle.html" />
     <Content Include="06pointInCircle.js" />
-    <Content Include="07IsPrime.html" />
     <Content Include="07izPrime.js" />
-    <Content Include="08TrapezoidArea.html" />
     <Content Include="08trapezoidArea.js" />
     <Content Include="09PointInCircleOusideRec.html" />
     <Content Include="09pointInCircleOutRec.js" />
