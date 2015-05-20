@@ -1,17 +1,39 @@
 ﻿<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
+
 <head>
     <title>Loops</title>
     <script src="01numbers.js"></script>
+    <script src="02numbersNoDivisible.js"></script>
+    <script src="03minMaxofSequence.js"></script>
+    <script src="04lexicographicallySmallest.js"></script>
 </head>
+
 <body>
-    <div>
+    <h4>Check preserve log</h4>
+    <form>
         <h5>Problem 01. Numbers</h5>
         <label for="num01">Enter number:</label>
         <input type="text" value="" id="num01" />
         <br />
-        <button onclick="funcLoops()">Submit</button>
-    </div>
-    
+        <button onclick="funcNumbers01()">Submit</button>
+    </form>
+    <form>
+        <h5>Problem 2. Numbers not divisible</h5>
+        <label for="num02">Enter number:</label>
+        <input type="text" value="" id="num02" />
+        <br />
+        <button onclick="funcNumbers02()">Submit</button>
+    </form>
+    <form>
+        <h5>Problem 3. Min/Max of sequence</h5>
+        <button onclick="funcMinMax()">Submit</button>
+    </form>
+
+    <form>
+        <h5>Problem 4. Lexicographically smallest</h5>
+        <button onclick="funcLexSmallest()">Submit</button>
+    </form>
 </body>
+
 </html>
