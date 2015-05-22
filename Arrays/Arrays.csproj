@@ -67,6 +67,12 @@
   <ItemGroup>
     <Content Include="01Arrays.html" />
     <Content Include="01increaseArray.js" />
+    <Content Include="02lexicographicallyComparison.js" />
+    <Content Include="03maximalSequence.js" />
+    <Content Include="04maximalIncreasingSequence.js" />
+    <Content Include="05selectionSort.js" />
+    <Content Include="06mostFrequentNumber.js" />
+    <Content Include="07binarySearch.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
