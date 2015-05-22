@@ -7,6 +7,7 @@
 function selectionSort() {
     var arr = [3, 1, 2, -3, 4, -2, 17, 11, 95, 2, 4];
     var smallest = 0;
+    console.log(arr.join(', '));
 
     for (var i = 0; i < arr.length - 1; i++) {
         for (var j = i + 1; j < arr.length; j++) {
