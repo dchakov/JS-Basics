@@ -21,7 +21,7 @@ function binarySearch() {
             imax = imid - 1;
         }
     }
-    console.log('Index of the given element '+searchedNumber+' is :' + imid);
+    console.log('Index of the given element ' + searchedNumber + ' is :' + imid);
 
 }
 
