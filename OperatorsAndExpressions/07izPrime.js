@@ -4,7 +4,7 @@
 function funcIsPrime() {
     var number = prompt('Please enter a number');
     var isPrime = true;
-    if (number == 1) {
+    if (number <= 1) {
         isPrime = false;
     }
 
