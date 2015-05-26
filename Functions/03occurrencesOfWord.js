@@ -3,7 +3,7 @@
 //The search can be case sensitive or case insensitive.
 //Use function overloading.
 
-var text = "We are living in in an yellow submarine. We don't have anything else. In side the submarine is very tight. So we are drinking all the day. We will move out of it in 5 days.";
+var text = "We are living in in an yellow submarine We don't have anything else In side the submarine is very tight So we are drinking all the day We will move out of it in 5 days ";
 var word = "in";
 
 function wordsCounter(input, sub, isCaseSensitive) {

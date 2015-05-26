@@ -11,9 +11,9 @@ function positionInteger(array, index) {
     }
 }
 
-var arrarNeigh = [1, 3, 2, 4, 5, 2, 4, 6, 8, 9, 12, 3];
+var arrarNeighbour = [1, 3, 2, 4, 5, 2, 4, 6, 8, 9, 12, 3];
 var indexOfElement = '10' * 1;
 
 function largerThanNeigh() {
-    console.log("Element at position " + '[' + indexOfElement + ']' + ' is bigger than its two neighbours?:' + positionInteger(arrarNeigh, indexOfElement));
+    console.log("Element at position " + '[' + indexOfElement + ']' + ' is bigger than its two neighbours?:' + positionInteger(arrarNeighbour, indexOfElement));
 }
