@@ -8,7 +8,7 @@ function buildPerson(firstname, lastname, age) {
         firstname: firstname,
         lastname: lastname,
         age: age,
-        toString: function () {
+        toString: function toString() {
             return this.firstname + ' ' + this.lastname + ' ' + this.age;
         }
     }
@@ -34,24 +34,21 @@ var niki = buildPerson('Niki', 'Stoev', 24);
 var doni = buildPerson('Doncho', 'Kostov', 22);
 var koki = buildPerson('Niki', 'Kostov', 24);
 
-var arrayPeople = [doncho, evlogi, niki, doni, koki];
-var groupedByFname = group(arrayPeople, 'firstname');
-var groupedByAge = group(arrayPeople, 'age');
+var arrayP = [doncho, evlogi, niki, doni, koki];
+var groupedByFname = group(arrayP, 'firstname');
+var groupedByAge = group(arrayP, 'age');
 
 function groupeAnArray() {
-    for (var i = 0; i < arrayPeople.length; i++) {
-        console.log(arrayPeople[i].toString());
+    for (var i = 0; i < arrayP.length; i++) {
+        console.log(arrayP[i].toString());
     }
+    
     for (var group in groupedByFname) {
         console.log(group);
-        for (var i = 0; i < groupedByFname[group].length; i++) {
-            console.log(groupedByFname[group][i].toString());
-        }
+        console.log(groupedByFname[group].toString());
     }
     for (var group in groupedByAge) {
         console.log(group);
-        for (var i = 0; i < groupedByAge[group].length; i++) {
-            console.log(groupedByAge[group][i].toString());
-        }
+        console.log(groupedByAge[group].toString());
     }
 }
