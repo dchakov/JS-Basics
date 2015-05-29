@@ -42,13 +42,19 @@ function groupeAnArray() {
     for (var i = 0; i < arrayP.length; i++) {
         console.log(arrayP[i].toString());
     }
-    
+
     for (var group in groupedByFname) {
-        console.log(group);
-        console.log(groupedByFname[group].toString());
+        if (group !== 'undefined') {
+            console.log(group);
+            console.log(groupedByFname[group].toString());
+        };
+
     }
     for (var group in groupedByAge) {
-        console.log(group);
-        console.log(groupedByAge[group].toString());
+        if (group !== 'undefined') {
+            console.log(group);
+            console.log(groupedByAge[group].toString());
+        };
+
     }
 }
