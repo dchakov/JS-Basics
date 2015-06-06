@@ -4,7 +4,7 @@
 function funcNumbers02() {
     var numberN = document.getElementById('num02').value;
     for (var i = 1; i <= numberN; i++) {
-        if (i % 3 != 0 && i % 7 != 0) {
+        if (i % 3 != 0 || i % 7 != 0) {
             console.log(i);
         }
     }
