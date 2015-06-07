@@ -13,7 +13,6 @@ if (!String.prototype.bind) {
             result = this.match(pattern).join(obj.name);
         }
         if (patternLink.test(this)) {
-
             result = result.replace('>', ' href=' + '"' + obj.link + '">');
         }
         if (patternClass.test(this)) {
