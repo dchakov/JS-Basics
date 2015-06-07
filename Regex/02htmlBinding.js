@@ -13,10 +13,11 @@ if (!String.prototype.bind) {
             result = this.match(pattern).join(obj.name);
         }
         if (patternLink.test(this)) {
-            result = result.replace(patternLink, 'href=' + '"' + obj.link + '"');
+
+            result = result.replace('>', ' href=' + '"' + obj.link + '">');
         }
         if (patternClass.test(this)) {
-            result = result.replace(patternClass, 'class=' + '"' + obj.name + '"');
+            result = result.replace('>', ' class=' + '"' + obj.name + '">');
         }
         return result;
     }
