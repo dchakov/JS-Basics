@@ -3,19 +3,27 @@
 //Add the function to the String.prototype
 
 if (!String.prototype.bind) {
-    String.prototype.bind = function (str,obj) {
-        var pattern,
-            result,
-            prop;
-        for (prop in obj) {
-
+    String.prototype.bind = function (str, obj) {
+        var pattern = /<[A-z0-9"\s\-=\/]+>/g,
+             patternName = /data-bind-content="name"/,
+             patternLink = /data-bind-href="link"/,
+             patternClass = /data-bind-class="name"/,
+             result;
+        if (patternName.test(this)) {
+            result = this.match(pattern).join(obj.name);
+        }
+        if (patternLink.test(this)) {
+            result = result.replace(patternLink, 'href=' + '"' + obj.link + '"');
+        }
+        if (patternClass.test(this)) {
+            result = result.replace(patternClass, 'class=' + '"' + obj.name + '"');
         }
         return result;
     }
 }
 
 var str01 = '<div data-bind-content="name"></div>';
-var str02 = '<a data-bind-content="name" data-bind-href="link" data-bind-class="name"></а>';
+var str02 = '<a data-bind-content="name" data-bind-href="link" data-bind-class="name"></a>';
 
 function regular02() {
     console.log(str01.bind(str01, { name: 'Steven' }));
