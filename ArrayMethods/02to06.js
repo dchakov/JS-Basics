@@ -84,3 +84,4 @@ function problem02() {
 
     console.log(JSON.stringify(resultGroup, null, '\t'));
 }
+problem02()

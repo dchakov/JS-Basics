@@ -33,3 +33,4 @@ function deepCopyFunction() {
     console.log(student2);
     console.log(student2.hair);
 }
+deepCopyFunction()

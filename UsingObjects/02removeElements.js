@@ -19,3 +19,4 @@ function removeElements() {
     arr.remove(1);
     console.log(arr);
 }
+removeElements()

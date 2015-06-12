@@ -30,3 +30,4 @@ function problem01() {
         console.log(item);
     });
 }
+problem01()
